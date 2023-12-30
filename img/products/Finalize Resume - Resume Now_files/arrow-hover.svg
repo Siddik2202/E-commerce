@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="47" viewBox="0 0 49 47" fill="none">
+<g clip-path="url(#clip0_4039_142651)">
+<g filter="url(#filter0_d_4039_142651)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.6205 6.61074C26.6153 4.41401 20.4707 1.2202 13.6562 5.27503C3.47556 11.3328 -0.325791 28.4555 8.74398 36.9262C11.7967 39.7774 21.2651 41.8149 23.7493 42.0646C42.5015 43.9496 53.4313 17.448 35.3901 7.65956L33.6205 6.61074Z" fill="#FFCD7D"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.7945 23.4441C13.3752 23.0847 13.3267 22.4534 13.6861 22.0341L19.5432 15.2008C19.9026 14.7815 20.5339 14.7329 20.9533 15.0923C21.3726 15.4517 21.4211 16.083 21.0617 16.5024L16.7231 21.564C19.5527 21.4726 22.7437 21.5422 25.6604 21.6228C26.0988 21.6349 26.53 21.6472 26.9522 21.6592C30.2141 21.7522 32.9437 21.8301 34.3458 21.6898C34.8954 21.6349 35.3854 22.0358 35.4404 22.5854C35.4953 23.1349 35.0944 23.625 34.5448 23.6799C33.0034 23.8341 30.1244 23.7514 26.9194 23.6593C26.4864 23.6468 26.0476 23.6342 25.6052 23.622C22.7464 23.543 19.6956 23.4774 16.9987 23.5564L21.9294 27.7828C22.3488 28.1422 22.3973 28.7735 22.0379 29.1928C21.6785 29.6121 21.0472 29.6607 20.6278 29.3013L13.7945 23.4441Z" fill="#000000"/>
+</g>
+<defs>
+<filter id="filter0_d_4039_142651" x="0.621094" y="2.32776" width="46.9766" height="44.8325" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.236451 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_4039_142651"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_4039_142651" result="shape"/>
+</filter>
+<clipPath id="clip0_4039_142651">
+<rect width="48.2596" height="46.0687" fill="white" transform="matrix(-1 0 0 1 48.2598 0)"/>
+</clipPath>
+</defs>
+</svg>

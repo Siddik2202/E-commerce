@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+
+
+        <!--custom css -->
+        <link rel="stylesheet" href="/css/style.css">
+        <!-- Another Custom css -->
+        <link rel="stylesheet" href="/css/blog.css">
+        <!-- Custom css for responsive web page -->
+        <link rel="stylesheet" href="/css/responsive.css">
+        <!-- Custom cart css  -->
+        <link rel="stylesheet" href="/css/cart.css">
+        <!-- Custom css  -->
+        <link rel="stylesheet" href="/css/shop.css">
+
+        <!-- Boxicon -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    
+    <!-- Navigation Section Design -->
+    <header id="header">
+
+            <a href="#">
+                <img src="/img/logo3.png" alt="This is for logo" width="50px" height="30px" style="border-radius: 20px;">
+            </a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="#home" onclick="window.location.href='index.html';">Home</a></li>
+                    <li><a href="#shop" onclick="window.location.href='shop.html';">Shop</a></li>
+                    <li><a href="#blog" onclick="window.location.href='shop.html';">Blog</a></li>
+                    <li><a href="#about"onclick="window.location.href='about.html';">About</a></li>
+                    <li><a href="#contact" onclick="window.location.href='contact.html';">Contact</a></li>
+                    <li><a href="#cart" class="active" onclick="window.location.href='cart.html';"><i class='bx bx-shopping-bag' ></i></a></li>
+                    <a href="#" id="close"><i class='bx bx-x'></i></a>
+
+                </ul>
+            </div>
+            <div id="mobile">
+    
+                <i class='bx bx-search-alt-2' ></i>
+                <i class='bx bx-heart'></i>
+                <i class='bx bx-shopping-bag' ></i>
+                <i class='bx bx-menu' id="menu"></i>
+            </div>
+    </header>
+    
+    <!-- Header Section Design -->
+    <section id="page-header" class="cart">
+        <h2>#cart Items </h2>
+        <p>If you are facing any problem then contact with us according to folling below. </p>
+    </section>
+
+
+    <!-- Cart section Design -->
+    <section id="cart" class="section-m1">
+        <table width="100%">
+            <thead>
+                <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i><a href="#"></a></td>
+                    <td><img src="/img/products/f1.jpg" alt=""></td>
+                    <td>Carton Astronaut T-Shirts</td>
+                    <td>$118.50</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.50</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i><a href="#"></a></td>
+                    <td><img src="/img/products/f4.jpg" alt=""></td>
+                    <td>Carton Astronaut T-Shirts</td>
+                    <td>$48.50</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.50</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i><a href="#"></a></td>
+                    <td><img src="/img/products/f6.jpg" alt=""></td>
+                    <td>Carton Astronaut T-Shirts</td>
+                    <td>$76.50</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.50</td>
+                </tr>
+            </tbody>
+                
+
+        </table>
+    </section>
+
+
+    <!-- cart add section design -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon:">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$345</td>
+                </tr>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$345</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 350</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section Design -->
+    <footer class="section-p1 section-m1">
+        <div class="col">
+            <img class="logos" src="/img/logo3.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong> Aminpur, Balurghat, West Bengal, India</p>
+            <p><strong>Phone: </strong> +03 5555 3425 / (+91) 8944945898</p>
+            <p><strong>Hours: </strong>10:00 - 18:00, Monday-Friday</p>
+            <div class="follow">
+                <h4>Follow Us </h4>
+                <div class="icons">
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-youtube'></i>
+                    <i class='bx bxl-facebook-circle'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About us</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help Us</a>
+
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store and Google Play</p>
+            <div class="row">
+                <img src="/img/pay/app.jpg" alt="This is app store">
+                <img src="/img/pay/play.jpg" alt="This is google playstore ">
+            </div>
+            <p>Secure Payment Gateway </p>
+            <img src="/img/pay/pay.png" alt="This is for secure payment.">
+        </div>
+        <div class="copyright">
+            <p>@2023, AB Group Of Industry- Shop Smart, Shop Stylish, Shop. <br> Transforming ideas into digital brilliance - Your journey to innovation starts here.</p>
+        </div>
+
+
+    </footer>
+
+
+    <!-- Script of this file -->
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
